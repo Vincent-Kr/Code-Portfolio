@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Code Portfolio</title>
+<link rel="stylesheet" href="Portfolio.css">
+<script src="https://kit.fontawesome.com/403349c26c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="header">
+    <div class="container">
+        <nav>
+            <img src="shape.jpeg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>APT Major</p>
+            <h1>Hi, I'm <span>Vincent Kiarie</span><br>from USIU-A</h1>
+        </div>
+    </div>
+</div>
+<!----About---->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="tech.jpeg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                         <p></p>
+                         <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                         </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web Interfaces/Basic programming</li>
+                                <li><span>Web development</span><br> Website Designing</li>
+                                <li><span>Basic programming</span><br>Programming simple calculator</li>
+                            </ul>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>2023</span><br>Web design</li>
+                                    <li><span>2023</span><br>Programming using python</li>
+                                    <li><span>2019-2022</span><br>Computer studies</li>
+                                </ul>
+                            </div>
+                                <div class="tab-contents" id="education">
+                                    <ul>
+                                    <li><span>2023-current</span><br>Applied computer technology</li>
+                                    <li><span>2019-2022</span><br>Highschool</li>
+                                    <li><span>2008-2018</span><br>Primary school</li>
+                                    </ul>
+                                </div>
+                       </div>
+                </div>
+            </div>
+         </div>  
+<!---Services-->      
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+         <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web design</h2>
+            <p>Web design refers to the design of websites. It usually refers to the user experience aspects of website development rather than software development. Web design used to be focused on designing websites for desktop browsers; however, since the mid-2010s, design for mobile and tablet browsers has become ever-increasingly important.
+            </p>
+            <a href="#">Learn more</a>
+         </div>   
+         <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Programming</h2>
+            <p>Learn the basics of programming, coding, and how to communicate with computers through different languages. Explore the history, applications, and benefits of learning to program in today's world.
+            </p>
+            <a href="#">Learn more</a>
+         </div>   
+        </div>
+    </div>
+</div>
+<!-----Portfolio----->
+<div id="portfolio">
+     <div class="container">
+          <h1 class="sud-title">Assignment codes</h1>
+          <h3 class="sud-title"><font color="cyan">Place the cursor on the image interphase below and click on the external link to view the codes.</font></h3>
+          <div class="work-list">
+            <div class="work">
+                <img src="tree.jpeg">
+                <div class="layer">
+                    <h3>Family Tree</h3>
+                    <p>Family Tree using Prolog that includes facts and relationships about a family, extending to a minimum of four generations .</p>
+                    <a onclick="window.location.href='https://ideone.com/pnDf4J'" class="mt-2 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="log.jpeg">
+                <div class="layer">
+                    <h3>Login interface</h3>
+                    <p>A login application that can validate both input fields</p>
+                    <a onclick="window.location.href='https://ideone.com/9hyEcD'" class="mt-2 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="sp.jpeg">
+                <div class="layer">
+                    <h3>Area of shape</h3>
+                    <p>A program to calculate and display the area of a shape that the user defines via the keyboard. </p>
+                    <a onclick="window.location.href='https://ideone.com/eo6ark'" class="mt-2 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="grade.jpeg">
+                <div class="layer">
+                    <h3>Grade program</h3>
+                    <p>A program that will take marks as input and award the appropriate grade based on USIU's grading system.</p>
+                    <a onclick="window.location.href='https://ideone.com/jLrLKb'" class="mt-2 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+          </div>
+          <a href="#" class="btn">See more</a>
+     </div>
+</div>
+
+<!--Contact-->
+<div id="contact">
+<div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>vknjiru@usiu.ac.ke</p>
+            <p><i class="fa-solid fa-square-phone"></i>0745678333</p>
+            <div class="social-icons">
+                <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com"><i class="fa-brands fa-x-twitter"></i></i></a>
+                <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+    </div>
+        <div class="contact-right"></div>
+        <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn2 ">Submit</button>
+        </form>
+        <span id="msg">Hello</span>
+    </div>
+</div>
+<div class="copyright">
+    <p>Copyright © Vincent. <i class="fa-solid fa-face-grin-beam-sweat"></i> .XXX.</p>
+</div> 
+</div>
+
+         <script>
+            
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents")
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+         </script> 
+         <script>
+
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+         </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzC8mWt35SsZROAUu_0FXNJypk1XpWKdDq6YnugMYjxLUsCP9ddhaxDdxnWdZo3PLwEdw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg") 
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+             msg.innerHTML = "Message sent successfully"
+             setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html> 
